@@ -15,7 +15,7 @@ export default function WelcomeScreen(){
                     Let's Get Started!
                 </Text>
                 <View className="flex-row justify-center"> 
-                    <Image source={require("../assets/welcoime.png")}
+                    <Image source={require("../assets/welcome.png")}
                     style={{width:250, height:250}}/>
                 </View>
 
@@ -24,11 +24,11 @@ export default function WelcomeScreen(){
                     className="py-3 bg-yellow-400 mx-7 rounded-xl">
                         <Text
                         className="text-center font-bold  text-xl text-gray-700">
-                            Sign Up
+                           Criar Conta
                         </Text>
                     </TouchableOpacity>
                     <View className="flex-row justify-center">
-                        <Text className="text-gray-700">Já possui conta </Text>
+                        <Text className="text-gray-700">Já possui conta ? </Text>
                         <TouchableOpacity onPress={()=> navigation.navigate("Login")}>
                             <Text className="text-yellow-400">Log in</Text>
                         </TouchableOpacity>
