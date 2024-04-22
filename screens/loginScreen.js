@@ -27,7 +27,7 @@ export default function LoginScreen(){
 
                     <Text className="text-gray-700 ml-4">Email</Text>
                     <TextInput
-                        value="gustavo@gmail.com"
+                        
                         placeholder="Email"
                         className="p-4 bg-gray-100 text-gray-700 rounded-2xl"
                     ></TextInput>
@@ -35,7 +35,7 @@ export default function LoginScreen(){
                     <Text className="ml-4" >Senha</Text>
                     <TextInput
                         secureTextEntry
-                        value="123456"
+                        
                         placeholder="Senha"
                         className="p-4 bg-gray-100 text-gray-700 rounded-2xl"
                     ></TextInput>
