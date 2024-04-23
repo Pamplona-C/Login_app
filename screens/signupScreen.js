@@ -17,7 +17,7 @@ export default function SignUpScreen(){
                 </TouchableOpacity>
 
                 <View className="flex-row justify-center my-8"> 
-                    <Image source={require("../assets/welcome.png")}
+                    <Image source={require("../assets/cadeado-removebg-preview.png")}
                     style={{width:150, height:150}}/>
                 </View>
             </SafeAreaView>
